@@ -1,0 +1,3 @@
+cd Desktop/"Data Science"/"Learning Python"/streamlitapp
+myenv\Scripts\activate.bat
+streamlit run main.py

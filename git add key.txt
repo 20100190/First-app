@@ -1,0 +1,9 @@
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+# save key in default folder 
+ssh-keygen -t ed25519 -C "your_email@example.com"
+cat ~/.ssh/id_ed25519.pub
+
+#check
+ssh -T git@github.com
